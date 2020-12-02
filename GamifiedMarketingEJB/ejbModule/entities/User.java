@@ -1,8 +1,3 @@
 package entities;
+import javax.*;
 
-import javax.persistance.*;
-
-@Entity
-public class User {
-
-}
