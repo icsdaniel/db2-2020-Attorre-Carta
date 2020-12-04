@@ -61,7 +61,8 @@ public class CheckLogin extends HttpServlet {
 		User user;
 		try {
 			// query db to authenticate for user
-			System.out.println("Get requests are correctly received :"+usrn+" "+pwd);
+			System.out.println("Login Get requests are correctly received: "+usrn+" "+pwd);
+			System.out.println(usrService);
 			user = usrService.checkCredentials(usrn, pwd);
 		} catch (CredentialsException | NonUniqueResultException e) {
 			e.printStackTrace();
