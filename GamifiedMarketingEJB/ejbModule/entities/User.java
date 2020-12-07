@@ -8,7 +8,7 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@Table(name = "usertable", schema = "db_expense_management")
+@Table(name = "usertable", schema = "db_gamified_marketing")
 @NamedQuery(name = "User.checkCredentials", query = "SELECT r FROM User r  WHERE r.username = ?1 and r.password = ?2")
 
 public class User implements Serializable {
