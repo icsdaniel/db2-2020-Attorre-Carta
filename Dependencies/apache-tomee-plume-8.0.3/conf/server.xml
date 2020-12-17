@@ -155,7 +155,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/francesco/database_systems/apache-tomee-plume-8.0.3/wtpwebapps/WEB_example" path="/WEB_example" reloadable="true" source="org.eclipse.jst.jee.server:WEB_example"/><Context docBase="/home/francesco/database_systems/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb" path="/MissionExpensesWeb" reloadable="true" source="org.eclipse.jst.jee.server:MissionExpensesWeb"/></Host>
+      <Context docBase="/Users/danielecarta/Documents/GitHub/db2-2020-Attorre-Carta/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb" path="/GamifiedMarketingWeb" reloadable="true" source="org.eclipse.jst.jee.server:GamifiedMarketingWeb"/></Host>
     </Engine>
   </Service>
 </Server>
