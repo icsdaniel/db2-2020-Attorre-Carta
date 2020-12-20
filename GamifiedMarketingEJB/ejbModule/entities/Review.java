@@ -8,14 +8,58 @@ import javax.persistence.*;
  *
  */
 @Entity
+@Table(name = "reviews", schema = "db_gamified_marketing")
+@NamedQueries({ @NamedQuery(name = "Review.findAll", query = "SELECT r FROM Review r"),
+				@NamedQuery(name = "Review.findByProductID", query = "Select r FROM Review r WHERE r.product_reviewed.idproducts = :productid") })
 
 public class Review implements Serializable {
-
 	
 	private static final long serialVersionUID = 1L;
-
+	
+	@Id 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int idreviews;
+	@ManyToOne @JoinColumn(name="writer")
+	private User writer;
+	@ManyToOne @JoinColumn(name="product_reviewed")
+	private Product product_reviewed;
+	
+	private String text;
+	
 	public Review() {
 		super();
+	}
+	
+	public int getIdreviews() {
+		return idreviews;
+	}
+
+	public void setIdreviews(int idreviews) {
+		this.idreviews = idreviews;
+	}
+
+	public User getWriter() {
+		return writer;
+	}
+
+	public void setWriter(User writer) {
+		this.writer = writer;
+	}
+
+	public Product getProduct_reviewed() {
+		return product_reviewed;
+	}
+
+	public void setProduct_reviewed(Product product_reviewed) {
+		this.product_reviewed = product_reviewed;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
 	}
    
 }

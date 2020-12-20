@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+</head>
+<body>
+	<h1>Welcome Home</h1>
+	<div align="right">
+		<a th:href="@{/GoToHomePage}">Home</a>
+	</div>
+	<div>
+		<img alt="photo"
+			th:src="*{'data:image/png;base64,'+ photo.getThumbData()}">
+		<p th:text="${photo.caption}"></p>
+		<span th:each="t : ${photo.tags}" th:text="${t.label} +' '"></span>
+	</div>
+
+
+	<div>
+		<p>Add a tag</p>
+		<form action="#" th:action="@{/AddTagToPhoto}" method="POST">
+			<p>
+				<input type="hidden" name="photoId" th:value="${photo.id}">
+				Label: <input type="text" name="label" required />
+			</p>
+			<input type="submit" name="Create Tag">
+		</form>
+	</div>
+</body>
+</html>
+</body>
+</html>

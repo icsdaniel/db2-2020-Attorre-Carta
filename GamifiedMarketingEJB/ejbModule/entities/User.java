@@ -1,6 +1,7 @@
 package entities;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.*;
 
 /**
@@ -8,7 +9,7 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@Table(name = "usertable", schema = "db_gamified_marketing")
+@Table(name = "users", schema = "db_gamified_marketing")
 @NamedQuery(name = "User.checkCredentials", query = "SELECT r FROM User r  WHERE r.username = ?1 and r.password = ?2")
 
 public class User implements Serializable {
@@ -16,7 +17,7 @@ public class User implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private int idusers;
 
 	private String name;
 
@@ -30,11 +31,11 @@ public class User implements Serializable {
 	}
 
 	public int getId() {
-		return this.id;
+		return this.idusers;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int idusers) {
+		this.idusers = idusers;
 	}
 
 	public String getName() {

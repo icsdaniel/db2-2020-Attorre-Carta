@@ -1,6 +1,7 @@
 package entities;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.*;
 
 /**
@@ -8,14 +9,50 @@ import javax.persistence.*;
  *
  */
 @Entity
+@Table(name = "products", schema = "db_gamified_marketing")
+@NamedQueries({ @NamedQuery(name = "Product.findAll", query = "SELECT p FROM Product p"),
+				@NamedQuery(name = "Product.findByName", query = "SELECT p FROM Product p WHERE p.name = :name"),
+				@NamedQuery(name = "Product.findByProductID", query = "SELECT p FROM Product p WHERE p.idproducts = :productid")})
 
 public class Product implements Serializable {
 
-	
 	private static final long serialVersionUID = 1L;
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int idproducts;
+
+	private String name;
+	
+	@Lob
+	private byte[] image;
+	
 	public Product() {
 		super();
+	}
+	
+	public int getIdproducts() {
+		return idproducts;
+	}
+
+	public void setIdproducts(int idproducts) {
+		this.idproducts = idproducts;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public byte[] getImage() {
+		return image;
+	}
+
+	public void setImage(byte[] image) {
+		this.image = image;
 	}
    
 }

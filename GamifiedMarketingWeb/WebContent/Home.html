@@ -6,5 +6,19 @@
 </head>
 <body>
 	<h1>Welcome Home</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Writer</th>
+				<th>Review</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="r : ${reviews}">
+				<td th:text="${r.writer}"></td>
+				<td th:text="${ r.text }"></td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>
