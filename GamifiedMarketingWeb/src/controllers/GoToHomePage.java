@@ -60,8 +60,8 @@ public class GoToHomePage extends HttpServlet {
 		List<Review> productReviews = null;
 
 		try {
-			System.out.println("Trying");
-			productOfTheDay = pService.findByProductID(1); //TODO get PID by using date
+			System.out.println("pservice="+pService+"; rservice="+rService);
+			productOfTheDay = pService.findByProductID(1);
 			productReviews = rService.findByProductID(1);
 		} catch (Exception e) {
 			response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Not possible to get data");

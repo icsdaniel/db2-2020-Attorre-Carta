@@ -24,7 +24,6 @@ public class Product implements Serializable {
 
 	private String name;
 	
-	@Lob
 	private byte[] image;
 	
 	public Product() {

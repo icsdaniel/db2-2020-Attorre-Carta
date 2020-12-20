@@ -6,6 +6,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceException;
 import javax.persistence.NonUniqueResultException;
+
+import entities.Review;
 import entities.User;
 import exceptions.*;
 import java.util.List;
