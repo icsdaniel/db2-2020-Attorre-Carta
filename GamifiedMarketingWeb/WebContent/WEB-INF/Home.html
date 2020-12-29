@@ -27,6 +27,22 @@
 			</tr>
 		</tbody>
 	</table>
+	<p th:text="${'POD is '  + product.name}"></p>
+	<img th:src="*{'data:image/png;base64,'+product.getImageData()}" alt=""/>
+	<table>
+		<thead>
+			<tr>
+				<th>Writer</th>
+				<th>Review</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="r : ${reviews}">
+				<td th:text="${r.writer.username}"></td>
+				<td th:text="${ r.text }"></td>
+			</tr>
+		</tbody>
+	</table>
 	
 <!-- 
 

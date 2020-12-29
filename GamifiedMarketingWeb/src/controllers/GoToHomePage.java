@@ -56,24 +56,18 @@ public class GoToHomePage extends HttpServlet {
 		}
 
 		Product productOfTheDay = null;
-		List<Review> productReviews = null;
 
 		try {
 			productOfTheDay = pService.findByProductID(1);
-			productReviews = rService.findByProductID(1);
-			for(Review r:productReviews) {
-				System.out.println(r.getWriter().getUsername());
-			}
 		} catch (Exception e) {
 			response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Not possible to get data");
 			return;
 		}
-		
 		String path = "/WEB-INF/Home.html";
 		ServletContext servletContext = getServletContext();
 		final WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
 		ctx.setVariable("product", productOfTheDay);
-		ctx.setVariable("reviews", productReviews);
+		ctx.setVariable("reviews", productOfTheDay.getReviews());
 		
 
 		templateEngine.process(path, ctx, response.getWriter());
