@@ -1,6 +1,7 @@
 package entities;
 
 import java.io.Serializable;
+import java.util.Base64;
 import java.util.List;
 import javax.persistence.*;
 
@@ -23,7 +24,7 @@ public class Product implements Serializable {
 	private int idproducts;
 
 	private String name;
-	
+	@Lob
 	private byte[] image;
 	
 	public Product() {
@@ -52,6 +53,10 @@ public class Product implements Serializable {
 
 	public void setImage(byte[] image) {
 		this.image = image;
+	}
+	
+	public String getImageData() {
+		return Base64.getMimeEncoder().encodeToString(image);
 	}
    
 }

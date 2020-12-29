@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+<link rel="stylesheet" type="text/css" media="all"
+	href="../CSS/mystyle.css" th:href="@{/css/mystyle.css}" />
+</head>
+<body>
+	<h1>Welcome Home</h1>
+	<p th:text="${'POD is '  + product.name}"></p>
+	<img th:src="*{'data:image/png;base64,'+product.getImageData()}" alt=""/>
+	<table>
+		<thead>
+			<tr>
+				<th>Writer</th>
+				<th>Review</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="r : ${reviews}">
+				<td th:text="${r.writer.username}"></td>
+				<td th:text="${ r.text }"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
