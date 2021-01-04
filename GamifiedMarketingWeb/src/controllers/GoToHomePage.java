@@ -24,7 +24,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 /**
  * Servlet implementation class GoToHomePage
  */
-@WebServlet("/Home")
+@WebServlet("/GoToHomePage")
 public class GoToHomePage extends HttpServlet {
 	private TemplateEngine templateEngine;
 	private static final long serialVersionUID = 1L;

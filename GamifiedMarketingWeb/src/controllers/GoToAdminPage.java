@@ -19,7 +19,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 import entities.Questionnaire;
 import services.QuestionnaireService;
 
-@WebServlet("/Home")
+@WebServlet("/GoToAdminPage")
 public class GoToAdminPage extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;

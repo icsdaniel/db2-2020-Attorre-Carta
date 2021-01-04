@@ -2,6 +2,7 @@ package entities;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "questionnaires", schema = "db_gamified_marketing")
@@ -16,6 +17,9 @@ public class Questionnaire {
 	private int idquestionnaires;
 	
 	private int product_of_the_day;
+	
+	@OneToMany(mappedBy="questionnaire")
+	private List<Question> questions;
 	
 	@Temporal(TemporalType.DATE)
 	private Date date;
