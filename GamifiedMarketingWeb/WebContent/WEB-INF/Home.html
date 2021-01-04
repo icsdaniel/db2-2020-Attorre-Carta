@@ -6,27 +6,9 @@
 </head>
 <body>
 
-
 	<h1>Welcome to the GamifiedMarketing Homepage</h1>
-
-	<table>
-		<thead>
-			<tr>
-				<th>Questionnaire ID</th>
-				<th>Date</th>
-				<th>Delete Questionnaire</th>
-				<th>Questions</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr th:each="q : ${topquestionnaires}">
-				<td th:text="${q.idquestionnaires}"></td>
-				<td th:text="${q.date}"></td>
-				<td><a th:href="@{/DeleteQuestionnaire(questionnaireid=${q.idquestionnaires})}">Delete</a></td>
-				<td><a th:href="@{/Questions(questionnaireid=${q.idquestionnaires})}">Show Questions</a></td>
-			</tr>
-		</tbody>
-	</table>
+	
+	<a th:href="@{/GoToAdminPage}">Administration page</a>
 	
 	<a th:href="@{/GoToQuestionnairePage}">QuestionnairePage</a>
 	
@@ -46,47 +28,6 @@
 			</tr>
 		</tbody>
 	</table>
-	
-<!-- 
-
-<div  class="formdiv">
-		<p>Complete the form to create a product</p>
-		<form action="#" th:action="@{/CreateProduct}" method="POST">
-			<fieldset>
-				<p>
-					Name: <input type="text" name="name" required />
-				</p>
-				<p>
-					Description: <input type="text" name="description" required />
-				</p>
-				<p>
-					Unit cost : <input type="number" name="cost" min=0 required />
-				</p>
-				<input type="submit" name="Create Product">
-			</fieldset>
-		</form>
-	</div>
-		<div class="formdiv">
-		<p>Complete the form to modify a product</p>
-		<form action="#" th:action="@{/UpdateProduct}" method="POST">
-			<fieldset>
-				<p>
-					<label for="allproducts">Choose a  product:</label> <select
-						name="productId" id="productId">
-						<option th:each="p : ${allproducts}" th:value="${p.id}"
-							th:text="${p.name}"></option>
-					</select>
-				</p>
-				<p>
-					Unit cost : <input type="number" name="cost" min=0 required />
-				</p>
-				<input type="submit" name="Create Product">
-			</fieldset>
-		</form>
-	</div>
-
- -->
-	
 
 </body>
 </html>

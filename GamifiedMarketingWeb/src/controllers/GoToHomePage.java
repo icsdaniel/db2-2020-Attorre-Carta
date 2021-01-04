@@ -59,7 +59,6 @@ public class GoToHomePage extends HttpServlet {
 			return;
 		}
 		
-		List<Questionnaire> questionnaires = qstService.findAllQuestionnaire();
 		Product productOfTheDay = null;
 
 		try {
@@ -73,7 +72,6 @@ public class GoToHomePage extends HttpServlet {
 		final WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
 		ctx.setVariable("product", productOfTheDay);
 		ctx.setVariable("reviews", productOfTheDay.getReviews());
-		ctx.setVariable("topquestionnaires", questionnaires);
 
 		templateEngine.process(path, ctx, response.getWriter());
 	}

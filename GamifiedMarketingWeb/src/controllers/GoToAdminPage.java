@@ -43,7 +43,7 @@ public class GoToAdminPage extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		List<Questionnaire> questionnaires = qstService.findAllQuestionnaire();
 		
-		String path = "WEB-INF/Home.html";
+		String path = "WEB-INF/AdminPage.html";
 		
 		ServletContext servletContext = getServletContext();
 		final WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
