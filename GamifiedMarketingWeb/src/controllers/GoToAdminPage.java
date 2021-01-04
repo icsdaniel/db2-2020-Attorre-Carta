@@ -20,14 +20,14 @@ import entities.Questionnaire;
 import services.QuestionnaireService;
 
 @WebServlet("/Home")
-public class Home extends HttpServlet {
+public class GoToAdminPage extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 	@EJB(name = "services/QuestionnaireService")
 	private QuestionnaireService qstService;
 	private TemplateEngine templateEngine;
 	
-	public Home() {
+	public GoToAdminPage() {
 		super();
 	}
 	
