@@ -7,7 +7,8 @@ import java.util.Date;
 @Table(name = "questionnaires", schema = "db_gamified_marketing")
 @NamedQueries({
 //	@NamedQuery(name = "Questionnaire.findByDate", query = "SELECT q FROM Questionnaire q WHERE q.date= :d "),
-	@NamedQuery(name = "Questionnaire.findAll", query = "SELECT q FROM Questionnaire q ")
+	@NamedQuery(name = "Questionnaire.findAll", query = "SELECT q FROM Questionnaire q "),
+	@NamedQuery(name = "Questionnaire.findQOD", query = "SELECT q FROM Questionnaire q WHERE q.date= :qsdate")
 })
 public class Questionnaire {
 	

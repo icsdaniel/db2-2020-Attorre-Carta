@@ -1,6 +1,8 @@
 package controllers;
 
 import java.io.IOException;
+
+
 import java.util.List;
 
 import entities.*;
@@ -22,7 +24,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 /**
  * Servlet implementation class GoToHomePage
  */
-@WebServlet("/Home.html")
+@WebServlet("/Home")
 public class GoToHomePage extends HttpServlet {
 	private TemplateEngine templateEngine;
 	private static final long serialVersionUID = 1L;
@@ -30,6 +32,8 @@ public class GoToHomePage extends HttpServlet {
 	private ProductService pService;
 	@EJB(name = "services/ReviewService")
 	private ReviewService rService;
+	@EJB(name="services/QuestionnaireService")
+	private QuestionnaireService qstService;
 	
     public GoToHomePage() {
         super();
@@ -54,7 +58,8 @@ public class GoToHomePage extends HttpServlet {
 			response.sendRedirect(loginpath);
 			return;
 		}
-
+		
+		List<Questionnaire> questionnaires = qstService.findAllQuestionnaire();
 		Product productOfTheDay = null;
 
 		try {
@@ -68,7 +73,7 @@ public class GoToHomePage extends HttpServlet {
 		final WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
 		ctx.setVariable("product", productOfTheDay);
 		ctx.setVariable("reviews", productOfTheDay.getReviews());
-		
+		ctx.setVariable("topquestionnaires", questionnaires);
 
 		templateEngine.process(path, ctx, response.getWriter());
 	}

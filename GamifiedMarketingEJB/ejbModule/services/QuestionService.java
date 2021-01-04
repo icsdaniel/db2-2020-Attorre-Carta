@@ -20,6 +20,4 @@ public class QuestionService {
 			.setParameter("qid", questionnaireId)
 			.getResultList();
 	}
-	
-	
 }

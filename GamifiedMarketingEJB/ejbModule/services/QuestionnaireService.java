@@ -4,6 +4,7 @@ import javax.ejb.Stateless;
 import javax.persistence.*;
 import java.util.*;
 import entities.Questionnaire;
+import java.time.LocalDate;
 
 @Stateless
 public class QuestionnaireService {
@@ -24,6 +25,12 @@ public class QuestionnaireService {
 		q.setProduct_of_the_day(productOfTheDayId);
 		q.setDate(date);
 		em.persist(q);
+	}
+	
+	public Questionnaire findQuestionnaireOfTheDay() {
+		Date date = new Date();
+		System.out.println(date);
+		return em.createNamedQuery("Questionnaire.findQOD",Questionnaire.class).setParameter("qsdate",date).getSingleResult();
 	}
 	
 	public void deleteQuestionnaire(int questionnaireId) {
