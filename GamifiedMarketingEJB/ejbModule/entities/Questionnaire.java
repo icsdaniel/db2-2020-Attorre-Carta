@@ -24,6 +24,18 @@ public class Questionnaire {
 	@Temporal(TemporalType.DATE)
 	private Date date;
 	
+	public List<Question> getQuestions() {
+		return questions;
+	}
+	
+	public int getAmountOfQuestions() {
+		return questions.size();
+	}
+
+	public void setQuestions(List<Question> questions) {
+		this.questions = questions;
+	}
+
 	public int getProduct_of_the_day() {
 		return product_of_the_day;
 	}

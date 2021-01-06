@@ -11,8 +11,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.WebContext;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
@@ -39,16 +41,32 @@ public class GoToQuestionnairePage extends HttpServlet {
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Questionnaire qs=null;
-		try {
-			qs = qstService.findQuestionnaireOfTheDay();
-		}catch(Exception e){
-			
+		Questionnaire questionnaireOfTheDay = null;
+		String loginpath = getServletContext().getContextPath() + "/index.html";
+		HttpSession session = request.getSession();
+		
+		if (session.isNew() || session.getAttribute("user") == null) {
+			response.sendRedirect(loginpath);
+			return;
 		}
-		System.out.println(qs);
+		
+		try {
+			questionnaireOfTheDay = qstService.findQuestionnaireOfTheDay();
+		}catch(Exception e){
+			response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Unable to retrieve Questionnaire of the day");
+			return;
+		}
 		//if the user has already submitted the questionnaire display a message and redirect to home
+
 		
 		//otherwise retrieve qod and its questions and let the user answer
+		String path = "/WEB-INF/QuestionnairePage.html";
+		ServletContext servletContext = getServletContext();
+		final WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
+		ctx.setVariable("qod", questionnaireOfTheDay);
+		ctx.setVariable("questions", questionnaireOfTheDay.getQuestions());
+
+		templateEngine.process(path, ctx, response.getWriter());
 		
 	}
 

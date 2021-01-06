@@ -8,6 +8,7 @@
 		<class>entities.Product</class>
 		<class>entities.Question</class>
 		<class>entities.Questionnaire</class>
+		<class>entities.Response</class>
 		<class>entities.Review</class>
 		<class>entities.User</class>
 		<properties>

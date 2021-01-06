@@ -26,10 +26,9 @@ public class QuestionnaireService {
 		q.setDate(date);
 		em.persist(q);
 	}
-	
+
 	public Questionnaire findQuestionnaireOfTheDay() {
 		Date date = new Date();
-		System.out.println(date);
 		return em.createNamedQuery("Questionnaire.findQOD",Questionnaire.class).setParameter("qsdate",date).getSingleResult();
 	}
 	
