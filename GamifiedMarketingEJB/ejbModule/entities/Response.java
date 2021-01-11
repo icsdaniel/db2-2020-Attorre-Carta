@@ -14,7 +14,8 @@ public class Response implements Serializable {
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int idresponses;
+	@Column(name = "idresponses")
+	private Integer idresponses;
 	@ManyToOne @JoinColumn(name="writer")
 	private User writer;
 	@ManyToOne @JoinColumn(name="question")
@@ -31,11 +32,11 @@ public class Response implements Serializable {
 		this.text=text;
 		
 	}
-	public int getIdresponses() {
+	public Integer getIdresponses() {
 		return idresponses;
 	}
 
-	public void setIdresponses(int idresponses) {
+	public void setIdresponses(Integer idresponses) {
 		this.idresponses = idresponses;
 	}
 

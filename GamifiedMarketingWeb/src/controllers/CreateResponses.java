@@ -1,6 +1,7 @@
 package controllers;
 
 import entities.Response;
+
 import entities.User;
 
 import java.io.IOException;
@@ -84,8 +85,6 @@ public class CreateResponses extends HttpServlet {
 		}
 		
 		User user = (User) session.getAttribute("user");
-		for (Map.Entry<String, String[]> entry : responses.entrySet()) {
-			rspService.createResponse(user.getId(), Integer.parseInt(entry.getKey()), entry.getValue()[0]);
-		}
+		rspService.createResponsesdef(responses, user.getId());
 	}
 }
