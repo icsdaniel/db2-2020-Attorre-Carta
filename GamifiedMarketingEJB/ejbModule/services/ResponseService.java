@@ -52,9 +52,24 @@ public class ResponseService {
 		OptionalAnswer oa = new OptionalAnswer();
 		oa.setWriter(writer);
 		oa.setQuestionnaire(qst);
-		oa.setAge(Integer.parseInt(questionAndAnswer.get("age")[0]));
-		oa.setSex(questionAndAnswer.get("sex")[0].charAt(0));
-		oa.setExpertise(questionAndAnswer.get("expertise")[0].charAt(0));
+		if(questionAndAnswer.get("age")[0].length()==0) {
+			oa.setAge(null);
+		}
+		else {
+			oa.setAge(Integer.parseInt(questionAndAnswer.get("age")[0]));
+		}
+		if(questionAndAnswer.get("sex")[0].length()==0) {
+			oa.setSex(null);
+		}
+		else {
+			oa.setSex(questionAndAnswer.get("sex")[0].charAt(0));
+		}
+		if(questionAndAnswer.get("expertise")[0].length()==0) {
+			oa.setExpertise(null);
+		}
+		else {
+			oa.setExpertise(questionAndAnswer.get("expertise")[0].charAt(0));
+		}
 		em.persist(oa);
 	}
 	

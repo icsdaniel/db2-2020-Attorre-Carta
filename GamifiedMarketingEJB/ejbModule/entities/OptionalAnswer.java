@@ -25,11 +25,11 @@ public class OptionalAnswer implements Serializable {
 	@JoinColumn(name = "questionnaire")
 	private Questionnaire questionnaire;
 	
-	private int age;
+	private Integer age;
 	
-	private char sex;
+	private Character sex;
 	
-	private char expertise;
+	private Character expertise;
 	
 	public OptionalAnswer() {
 		super();
@@ -59,27 +59,27 @@ public class OptionalAnswer implements Serializable {
 		this.questionnaire = questionnaire;
 	}
 
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 
-	public char getSex() {
+	public Character getSex() {
 		return sex;
 	}
 
-	public void setSex(char sex) {
+	public void setSex(Character sex) {
 		this.sex = sex;
 	}
 
-	public char getExpertise() {
+	public Character getExpertise() {
 		return expertise;
 	}
 
-	public void setExpertise(char expertise) {
+	public void setExpertise(Character expertise) {
 		this.expertise = expertise;
 	}
 
