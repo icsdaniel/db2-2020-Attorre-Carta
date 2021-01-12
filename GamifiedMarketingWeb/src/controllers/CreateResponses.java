@@ -1,5 +1,6 @@
 package controllers;
 
+import entities.Questionnaire;
 import entities.Response;
 
 import entities.User;
@@ -60,24 +61,58 @@ public class CreateResponses extends HttpServlet {
 			return;
 		}
 		//checking data received correctness
-		
-		int questionsNumber = qstService.findQuestionnaireOfTheDay().getAmountOfQuestions();
+		Questionnaire qod =qstService.findQuestionnaireOfTheDay();
+		int questionsNumber = qod.getAmountOfQuestions();
 		Map<String,String[]> responses = null;
+		Integer age=null;
+		String sex=null;
+		String expertise=null;
+		
+		
 		try {
 			responses = request.getParameterMap();
+			for (Map.Entry<String, String[]> entry : responses.entrySet()) {
+				System.out.println("key: "+entry.getKey()+" value0: "+entry.getValue()[0]);
+				if(entry.getValue().length>1) {
+				System.out.println("key: "+entry.getKey()+" value1: "+entry.getValue()[1]);
+				}
+			}
+			if(request.getParameter("age").length()>1) {
+				age=Integer.parseInt(request.getParameter("age"));
+			}
+			if(request.getParameter("age").length()>1) {
+				sex=request.getParameter("sex");
+			}
+			if(request.getParameter("age").length()>1) {
+				expertise=request.getParameter("expertise");
+			}
+			
+			
+			System.out.println("age: "+age+" sex: "+sex+" expertise:"+expertise);
+			
 			//check responses number
-			if(questionsNumber!=responses.size()) {
+			if((questionsNumber+3)!=responses.size()) {
 				response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Incorrect param number");
 				return;
 			}
 			//check that key is int and value is string,array size is 1
+			int questionsCounter=0;
+			
 			for (Map.Entry<String, String[]> entry : responses.entrySet()) {
-			    Integer.parseInt(entry.getKey());
+				if(questionsCounter<questionsNumber) {
+					System.out.println("checking that key"+entry.getKey()+"is integer,"+questionsCounter+"<"+questionsNumber);
+					Integer.parseInt(entry.getKey());
+				}
+				else {
+					System.out.println("checking that key"+entry.getKey()+"is string,"+questionsCounter+"<"+questionsNumber);
+					String a = entry.getKey();
+				}
 			    if(entry.getValue().length!=1) {
 			    	response.sendError(HttpServletResponse.SC_BAD_REQUEST, "More than an answer per question");
 					return;
 			    }
 			    String a = entry.getValue()[0];
+			    questionsCounter++;
 			}
 			} catch (NumberFormatException | NullPointerException e) {
 			response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Incorrect or missing param values");
@@ -85,6 +120,6 @@ public class CreateResponses extends HttpServlet {
 		}
 		
 		User user = (User) session.getAttribute("user");
-		rspService.createResponsesdef(responses, user.getId());
-	}
+		rspService.createResponses(qod.getIdquestionnaires(),questionsNumber,responses, user.getId());
+    }
 }

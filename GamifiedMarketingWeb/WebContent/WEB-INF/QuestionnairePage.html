@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-<meta charset="ISO-8859-1">
-<title>Questions page</title>
-</head>
-<body>
-	<h1>Questionnaire of the day <a th:text="${qod.date}"></a></h1>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Questions page</title>
+	</head>
+	<body>
+		<h1>Questionnaire of the day <a th:text="${qod.date}"></a></h1>
 			<form action="#" th:action="@{/CreateResponses}" method="POST">
-			<div th:each="question : ${questions}">
-			<a th:text="${question.text}"></a>
-<!-- 			<input type="text" id=question.idquestions name="response"></input> -->
-			<input type="text" th:name="${question.idquestions}"></input>
-			</div>
-			<input type="submit" value="Submit">
+				
+				<div th:each="question : ${questions}">
+					<p th:text="${question.text}"></p>
+		<!-- 			<input type="text" id=question.idquestions name="response"></input> -->
+					<input type="text" th:name="${question.idquestions}"></input>
+				</div>
+				
+				<p>Age:</p>
+				<input name ="age" type="number" min="1" max="100">
+				
+				<p>Sex:</p>
+				<div>
+				  <input type="radio" name="sex" value="male">
+				  <label for="male">Male</label>
+				</div>
+				<div>
+				  <input type="radio" name="sex" value="female">
+				  <label for="female">Female</label>
+				</div>
+				<div>
+				  <input type="radio" name="sex" value="" checked>
+				  <label for="">I prefer to not declare</label>
+				</div>
+				
+				
+				<p>Expertise:</p>
+				<div>
+				  <input type="radio" name="expertise" value="low">
+				  <label for="low">Low</label>
+				</div>
+				<div>
+				  <input type="radio" name="expertise" value="medium">
+				  <label for="medium">Medium</label>
+				</div>
+				<div>
+				  <input type="radio" name="expertise" value="high">
+				  <label for="high">High</label>
+				</div>
+				<div>
+				  <input type="radio" name="expertise" value="" checked>
+				  <label for="">I prefer to not declare</label>
+				</div>
+				
+				<p></p>
+				<input type="submit" value="Submit">
 			</form>
-</body>
+	</body>
 </html>

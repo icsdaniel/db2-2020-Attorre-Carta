@@ -11,6 +11,7 @@
 		<class>entities.Response</class>
 		<class>entities.Review</class>
 		<class>entities.User</class>
+		<class>entities.OptionalAnswer</class>
 		<properties>
 			<property name="eclipselink.logging.level" value="FINE" />
 		</properties>

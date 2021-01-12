@@ -33,8 +33,9 @@ public class ResponseService {
 		}
 	}*/
 	
-	public void createResponses(Map<String,String[]> questionAndAnswer,int userId) {
+	public void createResponses(Integer questionnaireId,Integer mandatoryResponses,Map<String,String[]> questionAndAnswer,Integer userId) {
 		User writer = em.find(User.class, userId);
+		int mandatoryResponsesCreated=0;
 		for (Map.Entry<String, String[]> entry : questionAndAnswer.entrySet()) {
 			Question question  = em.find(Question.class, Integer.parseInt(entry.getKey()));
 			Response response = new Response();
@@ -42,7 +43,19 @@ public class ResponseService {
 			response.setWriter(writer);
 			response.setText(entry.getValue()[0]);
 			em.persist(response);
+			mandatoryResponsesCreated++;
+			if(mandatoryResponsesCreated==mandatoryResponses) {
+				break;
+			}
 		}
+		Questionnaire qst = em.find(Questionnaire.class,questionnaireId);
+		OptionalAnswer oa = new OptionalAnswer();
+		oa.setWriter(writer);
+		oa.setQuestionnaire(qst);
+		oa.setAge(Integer.parseInt(questionAndAnswer.get("age")[0]));
+		oa.setSex(questionAndAnswer.get("sex")[0].charAt(0));
+		oa.setExpertise(questionAndAnswer.get("expertise")[0].charAt(0));
+		em.persist(oa);
 	}
 	
 }
