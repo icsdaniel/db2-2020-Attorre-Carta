@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Homepage</title>
+</head>
+<body>
+
+
+	<h1>Welcome to the GamifiedMarketing Admin page</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Questionnaire ID</th>
+				<th>Date</th>
+				<th>Delete Questionnaire</th>
+				<th>Questions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="q : ${topquestionnaires}">
+				<td th:text="${q.idquestionnaires}"></td>
+				<td th:text="${q.date}"></td>
+				<td><a th:href="@{/DeleteQuestionnaire(questionnaireid=${q.idquestionnaires})}">Delete</a></td>
+				<td><a th:href="@{/Questions(questionnaireid=${q.idquestionnaires})}">Show Questions</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
