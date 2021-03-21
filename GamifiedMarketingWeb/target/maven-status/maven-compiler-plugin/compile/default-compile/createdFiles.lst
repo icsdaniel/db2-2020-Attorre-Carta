@@ -1,0 +1,7 @@
+it\polimi\db2\controllers\DeleteQuestionnaire.class
+it\polimi\db2\controllers\CheckLogin.class
+it\polimi\db2\controllers\GoToAdminPage.class
+it\polimi\db2\controllers\GoToHomePage.class
+it\polimi\db2\controllers\GoToQuestionnairePage.class
+it\polimi\db2\controllers\CreateResponses.class
+it\polimi\db2\controllers\Questions.class

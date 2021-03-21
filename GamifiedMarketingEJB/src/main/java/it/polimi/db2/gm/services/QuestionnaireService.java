@@ -1,9 +1,12 @@
 package it.polimi.db2.gm.services;
 
-import javax.ejb.Stateless;
-import javax.persistence.*;
-import java.util.*;
 import it.polimi.db2.gm.entities.Questionnaire;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import java.util.Date;
+import java.util.List;
 
 @Stateless
 public class QuestionnaireService {

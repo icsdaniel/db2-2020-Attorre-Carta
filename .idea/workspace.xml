@@ -10,763 +10,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d05f06de-7dee-49ea-9bf8-5df11bcb7d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/GamifiedMarketingEJB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/OptionalAnswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Question.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Questionnaire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Response.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/CredentialsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/InvalidStatusChange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/ProjectException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/QueryException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/UpdateProfileException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/QuestionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/QuestionnaireService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ResponseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ReviewService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/GamifiedMarketingWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/AdminPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/QuestionnairePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/Questions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CheckLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CreateResponses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToAdminPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToHomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/Questions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/GamifiedMarketingEJB-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CheckLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CreateResponses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToAdminPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToHomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/Questions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GamifiedMarketingWeb_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/BUILDING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/RELEASE-NOTES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/RUNNING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/catalina.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/catalina.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/tomee.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/backup/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/TomEE.amd64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/TomEE.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/TomEE.x86.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/bootstrap.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/catalina-tasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/catalina.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/catalina.bat.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/catalina.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/catalina.sh.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/ciphers.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/ciphers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/commons-daemon-native.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/commons-daemon.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/configtest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/configtest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/daemon.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/digest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/digest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/makebase.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/makebase.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/service.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/service.install.as.admin.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/service.readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/service.remove.as.admin.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/setclasspath.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/setclasspath.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/shutdown.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/shutdown.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/startup.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/startup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tomcat-juli.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tomcat-native.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tomee.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tomee.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tool-wrapper.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/tool-wrapper.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/version.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/bin/version.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/catalina.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/catalina.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/conf.d/cxf-rs.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/conf.d/cxf.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/conf.d/hsql.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/jaspic-providers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/jaspic-providers.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/server.xml.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/system.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/tomcat-users.xml.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/tomcat-users.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/tomee.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/FastInfoset-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-broker-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-client-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-jdbc-store-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-kahadb-store-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-openwire-legacy-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-protobuf-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/activemq-ra-5.15.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/bcprov-jdk15on-1.64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/bval-jsr-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina-ant.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina-ha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina-ssi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina-storeconfig.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina-tribes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/catalina.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commonj.sdo-2.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/commonj.sdo-2.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-cli-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-collections-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-collections4-4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-dbcp2-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-digester-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-lang3-3.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/commons-pool2-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cryptacular-1.2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-core-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-bindings-soap-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-bindings-xml-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-databinding-jaxb-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-frontend-jaxrs-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-frontend-jaxws-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-frontend-simple-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-management-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-client-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-extension-providers-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-extension-search-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-json-basic-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-mp-client-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-security-cors-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-security-jose-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-security-jose-jaxrs-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-security-oauth2-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-rs-service-description-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-security-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-security-saml-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-transports-http-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-ws-addr-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-ws-policy-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-ws-security-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/cxf-rt-wsdl-3.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/ecj-4.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/eclipselink-2.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/el-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-config-impl-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-connector-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-health-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-health-common-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-javamail_1.4_mail-1.9.0-alpha-2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-metrics-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-metrics-common-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-openapi-impl-1.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-opentracing-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/geronimo-transaction-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/hawtbuf-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/howl-1.0.1-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/hsqldb-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/istack-commons-runtime-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jackson-annotations-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jackson-core-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jackson-databind-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jackson-dataformat-yaml-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jakarta.activation-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jakarta.faces-2.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jasper-el.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jasper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jaspic-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jasypt-1.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/java-support-7.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/javaee-api-8.0-4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jaxb-runtime-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/joda-time-2.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/johnzon-core-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/johnzon-jaxrs-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/johnzon-jsonb-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/johnzon-mapper-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jose4j-0.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/jsp-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/mbean-annotation-api-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-config-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-fault-tolerance-api-1.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-health-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-jwt-auth-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-metrics-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-openapi-api-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-opentracing-api-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/microprofile-rest-client-api-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/mimepull-1.9.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/mp-common-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/mp-jwt-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/neethi-3.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-api-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-client-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-core-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-core-eclipselink-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-cxf-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-cxf-rs-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-cxf-transport-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-ejbd-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-hsql-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-http-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-javaagent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-jee-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-jee-accessors-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-jpa-integration-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-loader-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-rest-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-server-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openejb-webservices-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openjpa-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-core-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-profile-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-saml-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-saml-impl-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-security-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-security-impl-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-soap-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xacml-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xacml-impl-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xacml-saml-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xacml-saml-impl-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xmlsec-api-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opensaml-xmlsec-impl-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/opentracing-api-0.31.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-ee-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-ee-common-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-ejb-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-el22-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-impl-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-jsf-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-spi-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/openwebbeans-web-2.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/org.osgi.annotation.versioning-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/quartz-openejb-shade-2.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/saaj-impl-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/safeguard-impl-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/serp-1.15.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/servlet-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/slf4j-jdk14-1.7.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/snakeyaml-1.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/stax-ex-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/swizzle-stream-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/sxc-jaxb-core-0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/sxc-runtime-0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/taglibs-standard-jstlel-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-coyote.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-dbcp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-cs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-de.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-es.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-fr.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-ja.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-ko.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-pt-BR.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-ru.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-i18n-zh-CN.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-jdbc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-jni.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-util-scan.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-util.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomcat-websocket.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-catalina-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-common-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-config-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-jaxrs-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-jdbc-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-loader-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-mojarra-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-webapp-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/tomee-webservices-8.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/txw2-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/websocket-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wsdl4j-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-bindings-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-policy-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-ws-security-common-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-ws-security-dom-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-ws-security-policy-stax-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/wss4j-ws-security-stax-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xbean-asm7-shaded-4.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xbean-bundleutils-4.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xbean-finder-shaded-4.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xbean-naming-4.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xbean-reflect-4.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xml-resolver-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xmlschema-core-2.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/lib/xmlsec-2.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/catalina.2020-10-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/catalina.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/host-manager.2020-10-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/localhost.2020-10-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/localhost_access_log.2020-10-28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/localhost_access_log.2020-11-07.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/localhost_access_log.2020-12-10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/logs/manager.2020-10-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/temp/safeToDelete.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/bg-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/bg-middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/bg-nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/bg-upper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/tomcat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/tomcat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/ROOT/tomcat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/BUILDING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/RUNNING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/aio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/annotationapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/api/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/build.xml.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/deployment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/installation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/processes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/docs/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/sample.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/src/mypackage/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/web/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/web/images/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/sample/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/appdev/web.xml.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/apr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/requestProcess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/requestProcess/authentication-process.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/requestProcess/request-process.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/startup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/startup/serverStartup.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/architecture/startup/serverStartup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/balancer-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/building.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/cdi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/cgi-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/changelog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/class-loader-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/cluster-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/ajp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/automatic-deployment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-channel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-deployer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-interceptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-listener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-membership.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-receiver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-sender.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster-valve.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cluster.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/context.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/cookie-processor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/credentialhandler.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/engine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/executor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/globalresources.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/host.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/http.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/http2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/jar-scan-filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/jar-scanner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/jaspic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/listeners.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/loader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/realm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/resources.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/server.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/sessionidgenerator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/systemprops.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/config/valve.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/connectors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/default-servlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/deployer-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/developers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/elapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-admin-apps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-admin-objects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-admin-opers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-jdbc-realm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-jndi-realm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/fs-memory-realm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/funcspecs/mbean-names.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/graal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/host-manager-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/html-host-manager-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/html-manager-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/add.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/asf-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/code.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/cors-flowchart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/design.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/docs-stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/docs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fix.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans400italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans600.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans600italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/OpenSans700italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/fonts/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/tomcat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/update.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/images/void.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jasper-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jaspicapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jdbc-pool.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jndi-datasource-examples-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jndi-resources-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/jspapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/logging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/manager-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/maven-jars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/mbeans-descriptors-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/mbeans-descriptors.dtd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/monitoring.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/proxy-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/realm-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/rewrite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/security-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/security-manager-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/servletapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/setup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/ssi-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/ssl-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/developers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/interceptors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/membership.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/setup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/status.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/tribes/transport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/virtual-hosting-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/web-socket-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/websocketapi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/windows-auth-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/docs/windows-service-howto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/images/asf-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/images/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/host-manager/manager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/connectorCerts.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/jsp/sessionsList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/images/asf-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/images/tomcat.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/status.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/webapps/manager/xform.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/work/Catalina/localhost/GamifiedMarketingWeb/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/classes/controllers/CheckLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/classes/controllers/GoToHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/GamifiedMarketingEJB.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/apache-commons-lang.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/eclipselink.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/javax.persistence.source_2.1.0.v201304241213.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/javax.persistence_2.1.0.v201304241213.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/ognl-3.1.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/org.eclipse.persistence.jpa.modelgen.source_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/org.eclipse.persistence.jpars.source_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/org.eclipse.persistence.jpars_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/GamifiedMarketingWeb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/MissionDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/UpdateProfile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/CheckLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/CloseMission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/CreateExpensesReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/CreateExpensesReportWrong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/CreateMission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/DeleteMission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/GetMissionDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/GoToHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/GoToProfilePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/Logout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/PropagationTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/PropagationTester2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/classes/it/polimi/db2/controllers/UpdateProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/MissionExpensesEJB.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/apache-commons-lang.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/eclipselink.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/eclipselink-2.7.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/jakarta.persistence.source_2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/jakarta.persistence_2.2.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/jakarta.persistence-2.2.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/org.eclipse.persistence.jpa.modelgen.source_2.7.7.v20200504-69f2c2b80d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/org.eclipse.persistence.jpa.modelgen_2.7.7.v20200504-69f2c2b80d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/org.eclipse.persistence.jpars.source_2.7.7.v20200504-69f2c2b80d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/org.eclipse.persistence.jpars_2.7.7.v20200504-69f2c2b80d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/css/mystyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/MissionExpensesWeb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/WEB_example/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/WEB_example/WEB-INF/classes/examples/servlet/HelloServiceServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/WEB_example/WEB-INF/lib/EJB_example_+WEB.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/apache-tomee-plume-8.0.3/wtpwebapps/WEB_example/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/jaxb-compiler.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/jaxb-compiler.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/sdo-compiler.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/sdo-compiler.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/sdo-jaxb-compiler.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/sdo-jaxb-compiler.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/setenv.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/bin/setenv.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/eclipselink-javadocs.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/eclipselink-jpars-javadocs.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/eclipselink-src.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/eclipselink.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/javax.persistence.source_2.1.0.v201304241213.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/javax.persistence_2.1.0.v201304241213.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/org.eclipse.persistence.jpa.modelgen.source_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/org.eclipse.persistence.jpars.source_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/jpa/org.eclipse.persistence.jpars_2.5.2.v20140319-9ad6abd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/com.sun.tools.xjc_2.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/com.sun.xml.bind_2.2.0.v201004141950.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/javax.activation_1.1.0.v201108011116.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/javax.mail_1.4.0.v201005080615.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/javax.xml.bind_2.2.0.v201105210648.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/moxy/javax.xml.stream_1.0.1.v201004272200.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/jlib/sdo/commonj.sdo_2.1.1.v201112051852.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/license.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/dbwsbuilder.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/dbwsbuilder.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/eclipselink-dbwsutils.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/javax.servlet_2.4.0.v200806031604.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/javax.wsdl_1.6.2.v201012040545.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/org.eclipse.persistence.oracleddlparser.source_1.0.0.v20130531.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/dbws/org.eclipse.persistence.oracleddlparser_1.0.0.v20130531.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/rename/package-rename.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/rename/package-rename.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/rename/packageRename.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/rename/packageRename.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/rename/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/bin/workbench.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/bin/workbench.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms.dpr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/attunity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/cloudscape.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/db2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/dbase.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/derby.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/hsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/informix.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/javadb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/msaccess.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/mysql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/mysql4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/oracle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/oracle10g.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/oracle11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/oracle8i.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/oracle9i.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/pointbase.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/postgresql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/sqlanywhere.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/sqlserver.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/sybase.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/timesten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/platforms/timesten7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/config/workbench.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/jlib/connector.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/jlib/eclipselinkmw.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/jlib/elmwcore.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/jlib/xercesImpl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/utils/workbench/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink-dbws-sxf_1.0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink-dbws_1.0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink-dbws_1.1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink_orm_2_5.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink_oxm_2_5.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink_persistence_map_1.0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink_persistence_map_2.3.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/eclipselink_sessions_2.1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/orm_1_0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/orm_2_0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/orm_2_1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/persistence_1_0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/persistence_2_0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/persistence_2_1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/eclipselink/xsds/toplink-object-persistence_11_1_1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.jpt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/OptionalAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/OptionalAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/Questionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/Questionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/exceptions/CredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/exceptions/CredentialsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/exceptions/InvalidStatusChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/exceptions/InvalidStatusChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/exceptions/ProjectException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/exceptions/ProjectException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/exceptions/QueryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/exceptions/QueryException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/exceptions/UpdateProfileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/exceptions/UpdateProfileException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/QuestionnaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/QuestionnaireService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/ResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/ResponseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/ejbModule/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/GamifiedMarketingEJB.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/AdminPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/webapp/WEB-INF/AdminPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/webapp/WEB-INF/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/QuestionnairePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/webapp/WEB-INF/QuestionnairePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/Questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/webapp/WEB-INF/Questions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/apache-commons-lang.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/bin/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/QuestionnaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/java/it/polimi/db2/gm/services/QuestionnaireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/OptionalAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Questionnaire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/CredentialsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/InvalidStatusChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/ProjectException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/QueryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/exceptions/UpdateProfileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/QuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/QuestionnaireService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ResponseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/ReviewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingEJB/target/classes/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/GamifiedMarketingWeb.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/CheckLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/CheckLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/CreateResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/CreateResponses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/DeleteQuestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/DeleteQuestionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/GoToAdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/GoToAdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/GoToHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/GoToHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/GoToQuestionnairePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/GoToQuestionnairePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/controllers/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/Questions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pasted_code_/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pasted_code_/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pasted_code_/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pasted_code_/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pasted_code_/src/snippet/Snippet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/CheckLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/src/main/java/it/polimi/db2/controllers/CheckLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CheckLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CheckLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CreateResponses.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/CreateResponses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToAdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToAdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/classes/it/polimi/db2/controllers/Questions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/GamifiedMarketingEJB-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/commonj.sdo-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/eclipselink-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/GamifiedMarketingWeb-2.0/WEB-INF/lib/jakarta.persistence-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CheckLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CheckLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CreateResponses.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/CreateResponses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/DeleteQuestionnaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToAdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToAdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/GoToQuestionnairePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/GamifiedMarketingWeb/target/classes/it/polimi/db2/controllers/Questions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbdump.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -791,9 +92,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MissionExpenses" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42577678" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -806,24 +109,16 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value="mvn install" />
+      <command value="mvn clea" />
+      <command value="mvn mvn clean" />
+      <command value="mvn clean" />
+      <command value="mvn clean install -U" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="TomEE Server.TomEE 9.0.37">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TomEE 9.0.37" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GamifiedMarketingWeb_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -1050,6 +345,13 @@
       <updated>1616153622585</updated>
       <workItem from="1616153623906" duration="4007000" />
       <workItem from="1616158567742" duration="4046000" />
+      <workItem from="1616319774968" duration="494000" />
+      <workItem from="1616320377679" duration="1947000" />
+      <workItem from="1616322435082" duration="23000" />
+      <workItem from="1616322500986" duration="206000" />
+      <workItem from="1616322716844" duration="1739000" />
+      <workItem from="1616324536093" duration="1119000" />
+      <workItem from="1616325667058" duration="95000" />
     </task>
     <servers />
   </component>

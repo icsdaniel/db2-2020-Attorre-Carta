@@ -3,7 +3,6 @@ package it.polimi.db2.gm.services;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
 import it.polimi.db2.gm.entities.Product;
 
 @Stateless

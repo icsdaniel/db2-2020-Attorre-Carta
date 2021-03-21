@@ -1,25 +1,23 @@
 package it.polimi.db2.controllers;
 
-import java.io.IOException;
-
-import javax.ejb.EJB;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import it.polimi.db2.gm.entities.User;
+import it.polimi.db2.gm.exceptions.CredentialsException;
+import it.polimi.db2.gm.services.UserService;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
-import it.polimi.db2.gm.services.UserService;
-import it.polimi.db2.gm.entities.User;
-import it.polimi.db2.gm.exceptions.CredentialsException;
+import javax.ejb.EJB;
 import javax.persistence.NonUniqueResultException;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 @WebServlet("/CheckLogin")
 public class CheckLogin extends HttpServlet {
